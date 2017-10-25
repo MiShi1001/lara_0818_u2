@@ -9,7 +9,7 @@ class HelloController extends Controller
     public function index($name='Everybody')
     {
         $data=['name'=>$name];
-        returnview('hello.index',$data);
+        return view('hello.index',$data);
     }
 
 }
